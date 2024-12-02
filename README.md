@@ -19,7 +19,9 @@ Even though this seems like the best way to design a react-app, it can come with
 Large CSS files can slow down the initial page loaf time. 
 More info can be found here: LÄNK
 
-bild här
+![NormalCSS](normalcss1.png)
+![NormalCSS](normalcss2.png)
+
 
 
 
