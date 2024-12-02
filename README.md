@@ -1,6 +1,6 @@
-# styling-in-react
+# A Comparison of Common Styling Methods in React
 
-Styling in React applications is a critical aspect of developers that impacts maintainbility, scalability, and collaboration. This study examines four popular stylin methods - Normal CSS, CSS Modules, CSS-in-JS and Tailwind CSS. The aim is to compare them and discuss their advantages and disadvantages to provide recommendations for different types of projects.
+Styling in React applications is a critical aspect of developers that impacts maintainbility, scalability, and collaboration. This study examines four popular styling methods - Normal CSS, CSS Modules, CSS-in-JS and Tailwind CSS. The aim is to compare them and discuss their advantages and disadvantages to provide recommendations for different types of projects.
 
 
 
