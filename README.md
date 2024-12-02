@@ -9,13 +9,13 @@ Styling in React applications is a critical aspect of developers that impacts ma
 Normal CSS involves separation style in a `.css` file and linking them to React components using `className`.
 
 **Pros**
--Clear Separation: Maintains a distinct separation between JavaScript and styling, simplifying collaboration between coders and designers.
--Offers full range of CSS feautes, including media queries and animation.
+- Clear Separation: Maintains a distinct separation between JavaScript and styling, simplifying collaboration between coders and designers.
+- Offers full range of CSS feautes, including media queries and animation.
 - Simplicity: Ideal for small projects
 
 **Cons**
--Global Scope Issues: Styles applied in one part of the application may affect others.
--Performance Overhead: Large CSS files can increase initial page load times. 
+- Global Scope Issues: Styles applied in one part of the application may affect others.
+- Performance Overhead: Large CSS files can increase initial page load times. 
 
 
 **Example:**
@@ -27,12 +27,12 @@ Normal CSS involves separation style in a `.css` file and linking them to React 
 CSS Modules is almost like normal CSS, except the styles are only accessiable in the module if its explicity imported, ensuring their is no global scope issues. 
 
 **Pros**
--Scoped Styles: Avoids class name collisions.
--Organized Codbase: Better suited for large project because you can organazie your code more efficancy. 
+- Scoped Styles: Avoids class name collisions.
+- Organized Codbase: Better suited for large project because you can organazie your code more efficancy. 
 
 **Cons**
--Setup Complexity: Requires additional configuration for proper integraion in some projects.
--Not as lightweight as traditional CSS due to added modularity feauters. 
+- Setup Complexity: Requires additional configuration for proper integraion in some projects.
+- Not as lightweight as traditional CSS due to added modularity feauters. 
 
 **Example:**
 ![CSSmodules](cssmodules1.png)
@@ -42,12 +42,12 @@ CSS Modules is almost like normal CSS, except the styles are only accessiable in
 An utility first CSS-framework which allows you to put designs directly on to HTML-element. Instead of writing your CSS in separate files, you can use classes that representares rules. The rules are already made and you dont have to do your own CSS-styles.
 
 **Pros**
--Rapid Development, eliminates the need to write your own CSS-styles.
--Consistency, enforces a consistens design system
+- Rapid Development, eliminates the need to write your own CSS-styles.
+- Consistency, enforces a consistens design system
 
 **Cons**
--Readability, can be hard to read and understand, code can be longer and more complex
--Complex customization
+- Readability, can be hard to read and understand, code can be longer and more complex
+- Complex customization
 
 **Example**
 ![tailwind](tailwind.png)
@@ -58,12 +58,12 @@ An utility first CSS-framework which allows you to put designs directly on to HT
 Styled components allows you to define component-specific styles directly within JavaScript files using templates. 
 
 **Pros**
--Scoped Styles: Elimination conflicts though styles are scoped to the component.
--Clean Codebase: Reducing the need for external files.
+- Scoped Styles: Elimination conflicts though styles are scoped to the component.
+- Clean Codebase: Reducing the need for external files.
 
 **Cons**
--Takes time to learn.
--Inline styles can result in larger bundle sizes
+- Takes time to learn.
+- Inline styles can result in larger bundle sizes
 
 # Recommendations
 
@@ -82,34 +82,26 @@ Tailwind CSS is ideal for e-commerce platforms that require rapid prototyping an
 CSS-in-JS is good for projects requiring dynamic styling and reusable components, and where the team already have experience working with CSS-in-JS.
 
 
-# Referenser:
+# References:
 
-Normal CSS: 
-https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/What_is_CSS
+## Normal CSS
+- [MDN: What is CSS?](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/What_is_CSS)
+- [BBC Bitesize: Introduction to CSS](https://www.bbc.co.uk/bitesize/guides/zggs2nb/revision/3)
 
-https://www.bbc.co.uk/bitesize/guides/zggs2nb/revision/3
+## CSS Modules
+- [Create React App Docs: Adding a CSS Modules Stylesheet](https://create-react-app.dev/docs/adding-a-css-modules-stylesheet/)
+- [GitHub: CSS Modules](https://github.com/css-modules/css-modules)
 
+## Tailwind CSS
+- [Tailwind CSS Official Site](https://tailwindcss.com/)
+- [CSS Tricks: An Introduction to Tailwind CSS](https://www.builder.io/blog/tailwind-css-tips-and-tricks)
 
-CSS Modules:
-https://create-react-app.dev/docs/adding-a-css-modules-stylesheet/
+## CSS-in-JS
+- [Styled Components](https://styled-components.com/)
+- [Better Programming: All You Need to Know About CSS-in-JS](https://betterprogramming.pub/all-you-need-to-know-about-css-in-js-984a72d48ebc)
 
-https://github.com/css-modules/css-modules
-
-
-Tailwind CSS:
-https://tailwindcss.com/
-
-[CSS Tricks: An Introduction to Tailwind CSS](https://www.builder.io/blog/tailwind-css-tips-and-tricks)
-
-
-CSS-in-JS:
-https://styled-components.com/
-
-https://betterprogramming.pub/all-you-need-to-know-about-css-in-js-984a72d48ebc
-
-Annat:
-
-[Dev.to: Tailwind vs CSS-in-JS vs CSS Modules](https://medium.com/@ignatovich.dm/css-modules-vs-css-in-js-vs-tailwind-css-a-comprehensive-comparison-24e7cb6f48e9)
+## Annat
+- [Dev.to: Tailwind vs CSS-in-JS vs CSS Modules](https://medium.com/@ignatovich.dm/css-modules-vs-css-in-js-vs-tailwind-css-a-comprehensive-comparison-24e7cb6f48e9)
 
 
 
