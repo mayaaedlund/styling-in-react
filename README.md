@@ -24,11 +24,12 @@ Normal CSS involves separation style in a `.css` file and linking them to React 
 
 
 # CSS Modules: Scoped and Maintainable Styles
-CSS Modules is almost like normal CSS, except the styles are only accessible in the module if its explicity imported, ensuring their is no global scope issues. 
+CSS Modules is almost like normal CSS, except the styles are only accessible in the module if its explicity imported, ensuring their is no global scope issues. To use CSS Modules, you typically name your CSS files with a `.module.css` extension
 
 **Pros**
 - Scoped Styles: Avoids class name collisions.
 - Organized Codbase: Better suited for large project because you can organazie your code more efficiency. 
+- Works well with traditional CSS knowledge, so the learning curve is minimal.
 
 **Cons**
 - Not as lightweight as traditional CSS due to added modularity features. 
@@ -54,7 +55,7 @@ An utility first CSS-framework which allows you to put designs directly on to HT
 
 
 # CSS-in-JS: Dynamic and Component-Specific Styles
-Styled components allows you to define component-specific styles directly within JavaScript files using templates. 
+CSS-in-JS is a styling technique who allows you to write your CSS code directly within JavaScript files. You define your CSS as a JavaScript component. This makes it easier to manage and encapsulate styles, especially in component-based development models.
 
 **Pros**
 - Scoped Styles: Elimination conflicts though styles are scoped to the component.
@@ -63,6 +64,8 @@ Styled components allows you to define component-specific styles directly within
 **Cons**
 - Requires time to learn.
 - Inline styles can result in larger bundle sizes.
+
+![css-in-js](css-in-js.png)
 
 
 # How Do Styling Method Affect Page Loading Time?
